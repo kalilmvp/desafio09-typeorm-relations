@@ -153,6 +153,7 @@ describe('App', () => {
     );
   });
 
+  /*
   it('should not be able to create an order with a invalid customer', async () => {
     const response = await request(app).post('/orders').send({
       customer_id: '6a1922c8-af6e-470e-9a34-621cb0643911',
@@ -305,5 +306,5 @@ describe('App', () => {
         ]),
       }),
     );
-  });
+  }); */
 });
